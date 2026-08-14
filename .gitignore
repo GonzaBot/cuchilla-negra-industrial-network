@@ -1,0 +1,29 @@
+# Operating system
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode/
+.idea/
+*.swp
+
+# Virtual machine artefacts - never commit, these are enormous
+*.vdi
+*.vmdk
+*.ova
+*.iso
+
+# Packet Tracer backups
+*.bak
+
+# Credentials - nothing real belongs in this repository
+.env
+*secret*
+*credential*
+*password*
+*.pem
+*.key
+
+# Logs and temporary files
+*.log
+tmp/
